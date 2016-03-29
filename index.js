@@ -74,7 +74,7 @@ module.exports = function (factory) {
             var host = req.headers.host.split(':')[0];
             var parts = host.split('.');
 
-            var matches = hosttable.map(function(k) {
+            var matches = hosttable.filter(function(k) {
                 if (k.expression === '' && k.host === '~') {
                     if (parts.length < 3 || (parts.length === 1 && parts[0].toLocaleLowerCase() === 'localhost')) {
                         return k;
