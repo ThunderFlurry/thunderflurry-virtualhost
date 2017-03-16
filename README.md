@@ -1,5 +1,7 @@
 # Thunderflurry Virtual Host
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ThunderFlurry/thunderflurry-virtualhost.svg)](https://greenkeeper.io/)
+
 Middleware for `express` or `connect` to create virtual, self-contained application nodes in ThunderFlurry. Based originally on virtual-host, overhauled to add features specifically needed for ThunderFlurry's core.
 
 ### Install
